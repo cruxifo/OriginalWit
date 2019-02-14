@@ -25,7 +25,7 @@ var responses = ['Because I want to bang you on all my furniture',
 "Not enough to break the ice - if polar bears did weigh that much they'd be in trouble",
 "Disposable.",
 "Simple and with one lockable opening",
-"Because get in my bath!",
+"Because get in my bath!"
 ]
 
 function newQuote() {
@@ -34,5 +34,5 @@ function newQuote() {
   if (rand2 >= rand1){
       rand2+=1;
   }
-  document.getElementById('quoteDisplay').innerHTML = setups[rand1]+" "+responses[rand2];
+  document.getElementById('quoteDisplay').innerHTML = "CLICKED";
 }
