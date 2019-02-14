@@ -4,7 +4,7 @@ var disclaimers = ["Hey, I haven't obscured this at all, so welcome to the code.
 var setups = ['Are you my little toe?',
 'Are you heroin?',
 'Is your name Luke?',
-'C7',
+'I think . . . C7?',
 "Are you not-sand?",
 'Please have sex with me?',
 'Have you heard of "Imagine Dragons"?',
@@ -12,7 +12,31 @@ var setups = ['Are you my little toe?',
 "How much does a polar bear weigh?",
 "Don't you agree, pens should be like women?",
 "Bags should be like women.",
-"Are you a toaster?"
+"Are you a toaster?",
+'Are you the happiness I experienced as a child?',
+'Are you an enemy insurgent?',
+'Are you happiness and peace?',
+"Was your father Boreas, god of the north wind?",
+"Are you my appendix?",
+"Are you a dinosaur? ",
+"Can I treat you like a princess?",
+"Are you the sun?",
+"If I said you had a lovely body would you be offended?",
+"You a fan of big dicks?",
+"Wanna know why I like you?",
+"I like to roleplay as bulky -",
+"Tonight I'll be Mike Tyson, tomorrow you'll be Thor",
+"Are you Modern Art?",
+"Are you a Jackson Pollock?",
+"Have I ever told you about my limbo skills?",
+"Have you got 10 toes?",
+"Did it hurt?",
+"You look so much like my first wife -",
+"I was emotionally neglected as a child, but guess what?",
+"You're so adorable, I just want to spoil you!",
+"Are you an emergency endoscopy?",
+"Was your father a thief?",
+"Was your mother a seamstress?"
 ]
 var responses = ['Because I want to bang you on all my furniture',
 "Because despite everything I've been told, I wanna do you",
@@ -25,8 +49,31 @@ var responses = ['Because I want to bang you on all my furniture',
 "Not enough to break the ice - if polar bears did weigh that much they'd be in trouble",
 "Disposable.",
 "Simple and with one lockable opening",
-"Because get in my bath!"
-]
+"Because get in my bath!",
+"Because I miss you so bad",
+"Because I want to take you out",
+"Because I need you inside me",
+"Cos you've blown me away",
+"Because you're gonna make me burst",
+"Because I'll dig you out and polish you no matter how old you are",
+"Because I really need to shore up my alliance with France",
+"Because you're bright and that's important to me",
+"Would you hold it against me?",
+"Then you'll love my personality but hate my actual dick",
+"Because you're how I like my coffee - thick and creamy",
+"Our love knows no bounds - you go? I go! You stay? I stay! You get locked alone on an island inside a tower?"," I turn into a shower of magical rain and knock you up!",
+"Because I don't understand you but I can still admire you",
+"Because you're a mess but I get it, heck I even like it",
+"No matter how low the bar, I'll be underneath it",
+"That's how many toes I have! Snap!",
+"When you stole an angel's face and put it on your face so it was like your face?",
+"I've never married",
+"It makes me a terrible partner, so you should ditch me and I'll see a therapist",
+"Just sit somewhere warm and moist and I'll forget about you",
+"Because it's vital you get up in my guts",
+"I'm afraid I have to inform the police about that",
+"Because you're cute as a button"]
+
 
 function newQuote() {
   var rand1 = Math.floor(Math.random()*(setups.length));
@@ -34,5 +81,5 @@ function newQuote() {
   if (rand2 >= rand1){
       rand2+=1;
   }
-  document.getElementById('quoteDisplay').innerHTML = "CLICKED";
+  document.getElementById('quoteDisplay').innerHTML = setups[rand1]+" "+responses[rand2];
 }
