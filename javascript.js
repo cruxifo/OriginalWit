@@ -82,5 +82,6 @@ function newQuote() {
   if (rand2 >= rand1){
       rand2+=1;
   }
-  document.getElementById('quoteDisplay').innerHTML = setups[rand1]+" "+responses[rand2];
+  document.getElementById('quoteSetup').innerHTML = setups[rand1];
+  document.getElementById('quoteResponse').innerHTML = responses[rand2];
 }
