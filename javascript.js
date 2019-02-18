@@ -36,7 +36,10 @@ var setups = ['Are you my little toe?',
 "You're so adorable, I just want to spoil you!",
 "Are you an emergency endoscopy?",
 "Was your father a thief?",
-"Was your mother a seamstress?"
+"Was your mother a seamstress?",
+'Are you a sudden and painless death?',
+"You wanna roleplay?",
+"Do you believe in the supernatural?"
 ]
 var responses = ['Because I want to bang you on all my furniture',
 "Because despite everything I've been told, I wanna do you",
@@ -73,7 +76,11 @@ var responses = ['Because I want to bang you on all my furniture',
 "Just sit somewhere warm and moist and I'll forget about you",
 "Because it's vital you get up in my guts",
 "I'm afraid I have to inform the police about that",
-"Because you're cute as a button"]
+"Because you're cute as a button",
+'Because I fantasise about you constantly',
+"You can be a noble and beautiful maiden and I'll be a rugged stablehand that you fire for getting overfamiliar.",
+"Because I'm definitely gonna ghost you."
+]
 
 
 function newQuote() {
